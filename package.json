@@ -22,7 +22,6 @@
     "start:apps": "turbo run start --parallel --filter='./apps/*'",
     "start:nuxt-app": "dotenv -- turbo run start --filter nuxt-app",
     "start:storybook": "turbo run start --filter storybook",
-    "start:vite-app": "turbo run start --filter vite-app",
     "start": "turbo run start --parallel",
     "test:e2e:ui": "dotenv -e ./.env.e2e -- turbo run test:e2e:ui",
     "test:e2e": "dotenv -e ./.env.e2e -- turbo run test:e2e",
